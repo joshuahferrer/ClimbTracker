@@ -2,6 +2,8 @@ todo:
 
 1) registration and login
     - be able to register, store login credentials in database
+    # see https://realpython.com/python-contact-book/
+    
 
 2) feature to add to a separate database for gyms/climbs
     - user can add different gyms 
