@@ -1,0 +1,9 @@
+todo:
+
+1) registration and login
+    - be able to register, store login credentials in database
+
+2) feature to add to a separate database for gyms/climbs
+    - user can add different gyms 
+    - user can add different grades depending on skill level
+        - record different v grade and number of completions
