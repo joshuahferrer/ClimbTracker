@@ -14,3 +14,8 @@ Ex)
 
 The user will also have the option to add to the existing number of completed climbs.
 
+## Dependencies
+ClimbTracker is an application built using PyQt. You can install on Python >= 3.6 using the command `pip install pyqt5`. SQLite is used to handle the database and PyQt's SQL support connects the application to the database.
+
+## References
+This project was built by adding on top of a [contact book tutorial](https://realpython.com/python-contact-book/).

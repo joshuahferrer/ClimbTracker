@@ -1,11 +1,26 @@
-todo:
+app image:
+    -> on start opens login prompt
+        - enter username/email and password
+        - or register new user
+        - system should check input with database to check if valid user
+    -> after login, opens a new window to display completed climbs info
+        - default shows total (top rope/lead, boulders) completed climbs
+            - user may choose by specific gym(drop down menu) or add new gym(button)
+        - future: display in graph form(pie chart) by color for visual representation
 
+---------------------------------------------------------------------------------------------------------
+todo:
 1) registration and login
-    - be able to register, store login credentials in database
-    # see https://realpython.com/python-contact-book/
+    - be able to register, store login credentials into users database          (completed)
+        # see https://realpython.com/python-contact-book/
+    - check if valid user, if not add to database                               (IP)
     
 
 2) feature to add to a separate database for gyms/climbs
     - user can add different gyms 
     - user can add different grades depending on skill level
         - record different v grade and number of completions
+
+currently:
+- displays user database 
+    - UI to add and delete from database 
